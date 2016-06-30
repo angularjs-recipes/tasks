@@ -25,8 +25,12 @@ const tasksAdd = {
         <h2 class="text-center">Add Task <a href="#/" class="pull-left btn btn--warning"><i class="fa fa-fw fa-chevron-left"></i></a></h2>
         <hr>
         <form name="$ctrl.addTaskForm" ng-submit="$ctrl.submit($ctrl.addTaskForm.$valid)">
-            <input type="text" name="title" ng-model="$ctrl.newTask.title" class="form-control" placeholder="Enter task's title..." required />
-            <button type="submit" class="btn btn--block btn--green form-control">Add</button>
+            <div class="form-group">
+                <input type="text" name="title" ng-model="$ctrl.newTask.title" class="form-control" placeholder="Enter task's title..." required />
+            </div>
+            <div class="form-group">
+                <button type="submit" class="btn btn--block btn--green form-control">Add</button>
+            </div>
         </form>
     `
 };
