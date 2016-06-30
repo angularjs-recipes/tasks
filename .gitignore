@@ -2,3 +2,8 @@ bower_components/
 node_modules/
 .idea/
 .DS_STORE
+*.ttf
+*.woff
+*.woff2
+*.svg
+*.eot
